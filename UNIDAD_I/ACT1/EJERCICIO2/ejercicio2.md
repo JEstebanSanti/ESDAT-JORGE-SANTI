@@ -1,0 +1,1 @@
+!["mapa_estructuras de datos"](mapaestructuras.jpg)
