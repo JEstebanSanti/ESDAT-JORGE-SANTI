@@ -13,12 +13,6 @@ export function reverseArray (arr) {
   if (arr === null) {
     throw new TypeError('No Son Numeros')
   }
-  if (arr === undefined) {
-    throw new TypeError('No Son Numeros')
-  }
-  if (arr === null) {
-    throw new TypeError('No Son Numeros')
-  }
   const newArray = []
   for (let i = 0; i < arr.length; i++) {
     newArray.unshift(arr[i])
