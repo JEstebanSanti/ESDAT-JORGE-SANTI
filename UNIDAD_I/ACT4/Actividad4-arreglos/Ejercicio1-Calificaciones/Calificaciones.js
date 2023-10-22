@@ -1,12 +1,11 @@
 export function calcularPromedioAprobadosYreprobados (arr) {
-  
-  if(arr === undefined){
-    throw new TypeError("No Son Numeros")
+  if (arr === undefined) {
+    throw new TypeError('No Son Numeros')
   }
-  if(arr === null){
-    throw new TypeError("No Son Numeros")
+  if (arr === null) {
+    throw new TypeError('No Son Numeros')
   }
-  
+
   let sum = 0
   let aprovados = 0
   let reprobados = 0
