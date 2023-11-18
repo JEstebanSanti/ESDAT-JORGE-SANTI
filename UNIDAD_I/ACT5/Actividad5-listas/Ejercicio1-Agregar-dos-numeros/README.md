@@ -9,4 +9,5 @@ Por ultimo la funcion **addTwoList()**
 - Que se alimenta de dos linkedlist
 - obtiene sus datos por medio de un recorrido FOREACH, los convierte a string y despues los almacena en una variable string
 - en este caso los convierte a Number
-![test1](https://github.com/JEstebanSanti/ESDAT-JORGE-SANTI/assets/78988823/7960f4aa-7b3b-4c86-a352-b4b753df1a2e)
+
+![test1](https://github.com/JEstebanSanti/ESDAT-JORGE-SANTI/assets/78988823/ca2ea70f-2c62-43c5-9d7b-73b95b697026)
