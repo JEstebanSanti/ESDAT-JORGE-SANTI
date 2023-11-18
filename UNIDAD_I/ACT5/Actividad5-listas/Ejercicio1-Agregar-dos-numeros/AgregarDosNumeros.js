@@ -11,6 +11,16 @@ class LinkedList {
   }
 
   add(data) {
+    if(typeof data !== 'number') {
+      throw new RangeError('No es un entero')
+
+    }
+    if(!Number.isInteger(data)){
+      throw new RangeError('No es un entero')
+    }
+    if(data < 0){
+      throw new RangeError('El Numero No es un Positivo')
+    }
     const newNode = new Node(data);
     if (this.head === null) {
       this.head = newNode;
@@ -62,7 +72,6 @@ function addTwoList(listONE, listTWO){
   
   return Number(number1) + Number(number2);
 }
-
 
 
 export {
