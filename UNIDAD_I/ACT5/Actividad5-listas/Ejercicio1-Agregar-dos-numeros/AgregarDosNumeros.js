@@ -54,25 +54,18 @@ function addTwoList(listONE, listTWO){
   let number2 = '';
 
   listONE.forEach(element => {
-    number1 = element
+    number1 += String(element)
   });
-  listTWO.forEach(element => {
-      number2 = '';
+  listTWO.forEach(element =>{
+    number2 += String(element)
   });
-  return double(number1)+double(number2)
+  
+  return Number(number1) + Number(number2);
 }
 
-const linkedList = new LinkedList();
-linkedList.add(5);
-linkedList.add(0);
-linkedList.add(0);
-const linkedList2 = new LinkedList();
-linkedList.add(1);
-linkedList.add(0);
-linkedList.add(3);
 
-console.log(linkedList.getList()); // [1, 2, 3]
 
-linkedList.reverse();
-
-console.log(linkedList.getList()); // [3, 2, 1]
+export {
+  LinkedList,
+  addTwoList,
+}
