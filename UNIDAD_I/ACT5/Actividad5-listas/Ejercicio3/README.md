@@ -17,3 +17,4 @@ node.next = node2
 ```
 de Esta manera ya estan vinculados🎉🎉
 
+![test3](https://github.com/JEstebanSanti/ESDAT-JORGE-SANTI/assets/78988823/ab46ac22-68a3-42b8-8698-72775b074101)
