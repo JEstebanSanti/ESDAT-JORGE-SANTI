@@ -82,7 +82,7 @@ export class ArbolBinario {
 
     }
     if (!found) return undefined
-    return found.valor
+    return found
   }
 
   // Este metodo borra el nodo - si tienen hijos mueve los nodos 
@@ -148,6 +148,7 @@ export class ArbolBinario {
   }
 
 }
+
 
 
 

@@ -77,7 +77,7 @@ export  class ArbolBinario {
 
         }
         if(!found) return undefined
-        return found
+        return found.valor
     }
     borrar(valor) {
         const removerNodo = (node, valor) =>{
